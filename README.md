@@ -14,7 +14,7 @@ A comprehensive quantitative trading, technical analysis, and automated executio
 2. **Market Screener & Coiling Detector (`scan`):**
    * Multi-criteria technical scanner for **Volatility Squeezes / Coils** (Bollinger Bands inside Keltner Channels).
    * Detects **Squeeze Fired** breakouts, **Wyckoff Springs** (liquidity sweeps), and **Volume Surges** (> 2x 20-day volume).
-   * Includes preset watchlists (`tech`, `growth_turnaround`, `crypto_proxies`, `biotech_health`, `index_etfs`).
+   * Includes preset watchlists (`tech`, `gaming`, `growth_turnaround`, `crypto_proxies`, `biotech_health`, `index_etfs`).
 
 3. **Quantitative Strategy Backtesting Engine (`backtest`):**
    * Event-driven backtester with realistic slippage modeling and dynamic position sizing.

@@ -101,7 +101,7 @@ def handle_scan(args):
         tickers = [t.strip().upper() for t in args.tickers.split(",")]
         title = f"Custom Watchlist ({len(tickers)} tickers)"
     else:
-        tickers = ["TDOC", "BMNR", "AAPL", "NVDA", "TSLA", "COIN", "MSTR", "AMD"]
+        tickers = ["TDOC", "BMNR", "AAPL", "NVDA", "TSLA", "COIN", "MSTR", "AMD", "NTDOY"]
         title = "Default Focus Watchlist"
 
     console.print(f"[cyan]Scanning {len(tickers)} tickers for volatility coils, volume surges, and springs...[/cyan]")
